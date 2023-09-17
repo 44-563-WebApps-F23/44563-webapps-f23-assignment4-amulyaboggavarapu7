@@ -31,3 +31,10 @@ table, th, td {
 tr:nth-child(odd) {
 background-color:yellowgreen;
  }
+h6:hover{
+    background-color:yellow;
+    text-shadow: 2px 2px 2px;
+    border:2px solid;
+    
+}
+ 
