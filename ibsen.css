@@ -1,0 +1,22 @@
+
+p.speech{
+    font-size: medium;
+    color:black;
+}
+.direction{
+    font-size: larger;
+    background-color: lightgreen;
+    
+}
+.direction:hover{
+    color:black;
+    background-color: lightblue;
+}
+.peterStockmann{
+    color:purple;
+
+}
+.MrsStockmann{
+    color:red;
+
+}
