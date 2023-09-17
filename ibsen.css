@@ -20,3 +20,14 @@ p.speech{
     color:red;
 
 }
+table, th, td {
+    border: 1px solid;
+    color:darkblue;
+    text-align:center;
+    padding:1cqmax;
+    margin:1cqmax;
+}
+
+tr:nth-child(odd) {
+background-color:yellowgreen;
+ }
