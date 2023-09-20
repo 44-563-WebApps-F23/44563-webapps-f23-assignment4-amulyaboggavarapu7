@@ -4,6 +4,7 @@ p.speech{
     color:black;
 }
 .direction{
+    color:black;
     font-size: larger;
     background-color: lightgreen;
     
@@ -29,12 +30,46 @@ table, th, td {
 }
 
 tr:nth-child(odd) {
-background-color:yellowgreen;
+background-color:lightgray;
+ }
+ tr:nth-child(even){
+    background-color:lightcyan;
  }
 h6:hover{
     background-color:yellow;
     text-shadow: 2px 2px 2px;
     border:2px solid;
+    color:black;
     
 }
+table{
+    border: solid 3px;
+    border-collapse: collapse;}
+
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color:gray;
+      }
+      
+      li {
+        float: left;
+      }
+      
+      li a {
+        display: block;
+        color: orange;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+      
+      li a:hover {
+        background-color:green;
+      }
+      
  
